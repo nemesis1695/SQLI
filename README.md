@@ -24,6 +24,10 @@ Switches :
 
 
    ("-B", "--blind", dest="blind", help="Blind SQL Injection technique (time-based or boolean-based)")
+   
    ("-o", "--order-by", dest="order_by", action="store_true", help="Test ORDER BY functionality")
+   
    ("-u", "--union-select", dest="union_select", action="store_true", help="Test UNION SELECT functionality")
+   
    ("-h", "--help", action="help", help="Show this help message and exit")
+   
