@@ -13,3 +13,17 @@ The main features of this tool include:
     Ability to use switches for different configurations and specific tests.
 
 This tool is crucial for protecting websites and web applications against SQL Injection attacks and assists testers and developers in identifying and fixing potential vulnerabilities, thus enhancing the security of information and information systems.
+
+
+Using SQLI :
+
+python3 SQLI.py -u http://target.com/[?id=9]
+
+
+Switches : 
+
+
+   ("-B", "--blind", dest="blind", help="Blind SQL Injection technique (time-based or boolean-based)")
+   ("-o", "--order-by", dest="order_by", action="store_true", help="Test ORDER BY functionality")
+   ("-u", "--union-select", dest="union_select", action="store_true", help="Test UNION SELECT functionality")
+   ("-h", "--help", action="help", help="Show this help message and exit")
