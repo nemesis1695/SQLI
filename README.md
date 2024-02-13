@@ -17,7 +17,7 @@ This tool is crucial for protecting websites and web applications against SQL In
 
 Using SQLI :
 
-python3 SQLI.py -u http://target.com/[?id=9]
+python3 SQLI.py http://target.com/[?id=9]
 
 
 Switches : 
